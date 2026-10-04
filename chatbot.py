@@ -22,8 +22,8 @@ if not API_KEY:
 client = Groq(api_key=API_KEY)
 
 # Better model for detailed Gemini-like answers
-PRIMARY_MODEL = "llama-3.1-70b-versatile"
-FALLBACK_MODELS = ["llama-3.1-8b-instant"]
+PRIMARY_MODEL = "openai/gpt-oss-120b"
+FALLBACK_MODELS = ["openai/gpt-oss-20b"]
 
 SYSTEM_INSTRUCTIONS = """
 You are SwasthyaAI, a helpful and knowledgeable multilingual health assistant.
