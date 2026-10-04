@@ -6,3 +6,5 @@ Flask-Dance
 python-dotenv
 groq
 Werkzeug
+gunicorn
+psycopg2-binary
