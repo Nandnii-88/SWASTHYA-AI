@@ -22,7 +22,7 @@ if not API_KEY:
 client = Groq(api_key=API_KEY)
 
 # Better model for detailed Gemini-like answers
-PRIMARY_MODEL = "llama-3.3-70b-versatile"
+PRIMARY_MODEL = "llama-3.1-70b-versatile"
 FALLBACK_MODELS = ["llama-3.1-8b-instant"]
 
 SYSTEM_INSTRUCTIONS = """
